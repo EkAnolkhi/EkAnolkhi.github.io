@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+@media(max-width:768px){
+    .carousel-caption p, .carousel-indicators{
+        visibility: hidden;
+    }
+
+
+    .poem p{
+        text-align: center !important;
+    }
+}
+
+@media(max-width:480px){
+    .poem p{
+        text-align: center !important;
+    }
+
+    iframe{
+        width: 350px;
+        height: 350px;
+    }
+
+    .shubh{
+        text-align: center;
+    }
+
+    .shubh_social_head{
+        margin-top: 10px;
+    }
+}
+
+
+::-webkit-scrollbar{
+  background: #FF9800;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #006E7F;
+    border-radius: 100vw;
+    height: 10%;
+}
+.navbar{
+    background: #006E7F;
+}
+
+.logo img{
+   
+    float: left;
+}
+
+
+.menu ul li a{
+    font-size: 14px;
+    font-family: 'Aboreto', cursive;
+    color: #fff !important;
+    /* border: 2px solid #fff; */
+    padding: 0 30px !important;
+    transition: 0.5s ease-in;
+    margin: 0 32px !important;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.menu ul li a:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #FF9800;
+    left: -320%;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.menu ul li a:hover:before{
+    left: 0;
+    transform: rotate(360deg);
+    color: #fff;
+}
+
+.icon ul li a {  
+padding-right: 10px;
+}
+
+.icon ul li a img{
+    transition: 0.5s ease-out;
+}
+
+.icon ul li a img:hover{
+    transform: translateX(-10px);
+}
+
+.carousel-item{
+    background:#000;
+}
+
+.carousel-item img{
+    opacity: 0.8;
+}
+
+
+.carousel-caption{
+    top: 40%;
+}
+
+.carousel-caption p{
+    font-size: 32px;
+    font-family: 'Aboreto', cursive;
+}
+
+.carousel-indicators {
+    right: 64% !important;
+}
+
+.carousel-indicators li{
+    height: 30px !important;
+    border-radius: 50%;
+}
+
+.carousel-indicators li.active{
+    background: #FF9800;
+}
+
+
+
+
+.welcome h1{
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    color: #000;
+    text-decoration: underline #FF9800;
+}
+
+
+.welcome p{
+    font-size: 16px;
+    font-family: 'Aboreto', cursive;
+    cursor: default;
+}
+
+.welcome-img img{
+    border-radius: 10px;
+    box-shadow: 0 2px 1px;
+}
+
+
+.poem p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.tab_head h1{
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+    color: #006E7F;
+}
+
+
+/* -------------------------tab button------------------------- */
+
+.tab button{
+    width: 100%;
+    margin: 25px 0;
+    background: #FF9800;
+    padding: 10px 25px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    color: #383E56;
+    font-family: 'Aboreto', cursive;
+    border: none;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.tab button:hover{
+    color: #fff;
+}
+
+.tab button:before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #006E7F;
+    top: 0;
+    left: -100%;
+    transition: 0.5s;
+    z-index: -1;
+}
+
+.tab button:hover:before{
+    left: 0;
+}
+
+/* ----------------------------end tab button------------------------ */
+
+.poem{
+    width: 100%;
+    height: auto;
+    /* background: linear-gradient(#EEDAD1,#F69E7B); */
+    border: 1px solid #006E7F;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 3px;
+    cursor: pointer;
+}
+.poem_head{
+    background-color: #006E7F;
+}
+
+.poem_head h1{
+    font-size: 24px;
+    font-family: 'Aboreto', cursive;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+
+.tabcontent{
+    margin: 5px;
+}
+
+.about-bg{
+    width: 100%;
+    min-height: 350px;
+    float: left;
+    background: url(../img/aboutbg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about h1{
+    font-size: 24px;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #000;
+    text-decoration: underline #FF9800;
+    cursor: pointer;
+}
+
+.about h2{
+    font-size: 20px;
+    font-family: 'Aboreto', cursive;
+    color: #000;
+    cursor: pointer;
+}
+
+.about p{
+    font-size: 16px;
+    font-family: 'Aboreto', cursive;
+    color: #000;
+    text-align: justify;
+}
+
+
+.shubh img{
+  width: 50%;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 5px #006E7F);
+}
+.shubh_social{
+    width: 65%;
+    background: #006E7F;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.shubh_social_head h6{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+}
+
+.shubh_social ul li a i{
+    color: #383E56;
+    float: left;
+    padding: 10px 20px;
+    margin: 2px 2px 2px 0;
+    background: #006E7F;
+    color: #fff;
+    font-size: 18px;
+}
+
+.shubh_social ul li a img{
+    width: 20%;
+    float: left;
+}
+
+
+.footer-bg{
+    width: 100%;
+    min-height: 290px;
+    float: left;
+    background:  #006E7F;
+}
+
+.contact  h1{
+    font-size: 24px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FF9800;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.contact  h1:hover{
+    color: #fff;
+}
+
+.contact  p{
+    font-size: 16px;
+    font-family: 'Aboreto', cursive;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.contact ul li{
+    margin:20px 10px;
+    float: left;
+}
+
+.contact ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    padding-right: 15px;
+    color: #ccc;
+    font-family: 'Aboreto', cursive;
+    transition: 0.5s ease;
+}
+
+.contact ul li a:hover{
+    color: #FF9800;
+}
+
+
+.links  h1{
+    font-size: 22px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #FF9800;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.links  h1:hover{
+    color: #fff;
+}
+
+.links ul li{
+    margin: 10px 0;
+}
+
+.links ul li a{
+    font-size: 24px;
+    font-family: 'Aboreto', cursive;
+    color: #fff;    
+    font-weight: 500;
+    transition: 0.5s ease;
+}
+
+.links ul li a img{
+    transition: 0.5s ease-out;
+}
+
+.links ul li a img:hover{
+    transform: translateX(10px);
+}
+
+.links ul li a:hover{
+    color: #FF9800;
+}
+
+
+/* ---------------------------------------------------------------videogallery------------------------------------------------- */
+
+.video_head h1{
+    font-size: 24px;
+    font-family: 'Aboreto', cursive;
+    cursor: default;
+    text-decoration: underline #006E7F;
+}
+
+
+
+
+/* --------------------back to top--------------- */
+
+#button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    background: #FF9800 url(../img/arrow.png) no-repeat;
+    background-size: 100% 100%;
+  }
+  #button::after {
+    content: '';
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #FF9800;
+  }
+  #button:active {
+    background-color: #F2F2F0;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
