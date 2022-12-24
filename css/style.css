@@ -192,7 +192,9 @@ padding-right: 10px;
     cursor: pointer;
 }
 .poem_head{
-    background-color: #006E7F;
+    width: 100%;
+    height: 49px;
+    background: #181D31;
 }
 
 .poem_head h1{
