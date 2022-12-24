@@ -242,9 +242,9 @@ padding-right: 10px;
 
 
 .shubh img{
-  width: 50%;
-    border-radius: 50%;
-    filter: drop-shadow(0 0 5px #006E7F);
+     width: 43%;
+    border-radius: 2;
+    filter: drop-shadow(0 0 5px #181D31);
 }
 .shubh_social{
     width: 65%;
