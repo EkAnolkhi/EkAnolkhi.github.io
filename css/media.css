@@ -1,11 +1,20 @@
 @media(max-width:820px) {
 
-    .icon,
-    .logo,
-    .menu {
+    nav{
         width: 100%;
-        height: auto;
-        margin: 0 auto;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    .logo{
+        width: 100%;
+        margin: 2% 0;
+        text-align: center;
+
+    }
+
+    nav ul li{
+        width: 100%;
     }
 
     .carousel-caption p,
@@ -36,10 +45,9 @@
     .shubh_social_head {
         margin-top: 10px;
     }
-    
-     .tab,.tab_head{
+
+    .tab,.tab_head{
         width: 90%;
         margin: 0 5%;
     }
-    
 }
