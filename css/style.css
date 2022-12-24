@@ -389,7 +389,7 @@ padding-right: 10px;
     opacity: 0;
     visibility: hidden;
     z-index: 1000;
-    background: #FF9800 url(../img/arrow.png) no-repeat;
+    background: #181D31 url(../img/arrow.png) no-repeat;
     background-size: 100% 100%;
   }
   #button::after {
