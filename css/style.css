@@ -11,49 +11,19 @@ a{
     text-decoration: none !important;
 }
 
-/* @media(max-width:768px){
-    .carousel-caption p, .carousel-indicators{
-        visibility: hidden;
-    }
-
-
-    .poem p{
-        text-align: center !important;
-    }
-}
-
-@media(max-width:480px){
-    .poem p{
-        text-align: center !important;
-    }
-
-    iframe{
-        width: 350px;
-        height: 350px;
-    }
-
-    .shubh{
-        text-align: center;
-    }
-
-    .shubh_social_head{
-        margin-top: 10px;
-    }
-} */
-
 body{
     background: #678983!important;
 }
 
-::-webkit-scrollbar{
-  background: #FF9800;
+::-webkit-scrollbar {
+    background: #E6DDC4;
 }
 
-::-webkit-scrollbar-thumb{
-    background: #006E7F;
-    border-radius: 100vw;
+::-webkit-scrollbar-thumb {
+    background: #181D31;
     height: 10%;
 }
+
 .navbar{
     background: #181D31;
 }
@@ -82,7 +52,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    background: #FF9800;
+    background: #678983;
     left: -320%;
     z-index: -1;
     transition: 0.5s;
