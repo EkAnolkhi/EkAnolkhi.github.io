@@ -1,0 +1,39 @@
+@media(max-width:820px) {
+
+    .icon,
+    .logo,
+    .menu {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .carousel-caption p,
+    .carousel-indicators {
+        visibility: hidden;
+    }
+
+
+    .poem p {
+        text-align: center !important;
+    }
+}
+
+@media(max-width:480px) {
+    .poem p {
+        text-align: center !important;
+    }
+
+    iframe {
+        width: 350px;
+        height: 350px;
+    }
+
+    .shubh {
+        text-align: center;
+    }
+
+    .shubh_social_head {
+        margin-top: 10px;
+    }
+}
