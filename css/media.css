@@ -36,4 +36,10 @@
     .shubh_social_head {
         margin-top: 10px;
     }
+    
+     .tab,.tab_head{
+        width: 90%;
+        margin: 0 5%;
+    }
+    
 }
