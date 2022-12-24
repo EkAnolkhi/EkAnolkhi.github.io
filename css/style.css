@@ -147,7 +147,7 @@ padding-right: 10px;
 .tab button{
     width: 100%;
     margin: 25px 0;
-    background: #FF9800;
+    background: #E6DDC4;
     padding: 10px 25px;
     position: relative;
     overflow: hidden;
@@ -416,6 +416,30 @@ padding-right: 10px;
 #love {
     background: #000 url(../img/aboutbg3.png);
     opacity: 0.9;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#sad{
+    background: url(../img/wel.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#motivation{
+    background: url(../img/aboutbg.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#devotional {
+    background: url(../img/aboutbg4.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#other {
+    background: url(../img/banner4.png);
     background-attachment: fixed;
     background-size: cover;
 }
