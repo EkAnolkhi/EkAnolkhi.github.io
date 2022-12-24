@@ -11,7 +11,7 @@ a{
     text-decoration: none !important;
 }
 
-@media(max-width:768px){
+/* @media(max-width:768px){
     .carousel-caption p, .carousel-indicators{
         visibility: hidden;
     }
@@ -39,8 +39,11 @@ a{
     .shubh_social_head{
         margin-top: 10px;
     }
-}
+} */
 
+body{
+    background: #678983!important;
+}
 
 ::-webkit-scrollbar{
   background: #FF9800;
@@ -52,7 +55,7 @@ a{
     height: 10%;
 }
 .navbar{
-    background: #006E7F;
+    background: #181D31;
 }
 
 .logo img{
@@ -308,7 +311,7 @@ padding-right: 10px;
     width: 100%;
     min-height: 290px;
     float: left;
-    background:  #006E7F;
+    background:  #181D31;
 }
 
 .contact  h1{
