@@ -444,3 +444,15 @@ padding-right: 10px;
     background-attachment: fixed;
     background-size: cover;
 }
+
+.vid{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+iframe{
+    width: 100%;
+    min-height: 315px;
+    float: left;
+}
