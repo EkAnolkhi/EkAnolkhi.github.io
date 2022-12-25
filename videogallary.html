@@ -22,27 +22,28 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark">
-    <div class="logo">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="100" alt=""></a>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
-      aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class=""><img src="img/menu icon1.png" alt=""></span>
-    </button>
-    <div class="collapse navbar-collapse menu" id="navbarCollapse">
-      <ul class="navbar-nav m-auto">
-        <li class="nav-item active"><a class="nav-link" href="index.html"><i class="las la-home"></i> Home</a></li>
-        <li class="nav-item active"><a class="nav-link" href="#video"><i class="las la-play-circle"></i> Video Gallery</a></li>
-        <li class="nav-item active"><a class="nav-link" href="#contact"><i class="las la-sms"></i> Contact</a></li>
-      </ul>
-      <!-- <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form> -->
-    </div>
+  <nav class="navbar navbar-expand-md navbar-dark" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="logo ml-auto">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="100" alt=""></a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""><img src="img/menu icon1.png" alt=""></span>
+        </button>
+        <div class="collapse navbar-collapse menu mr-auto" id="navbarCollapse">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html"><i class="las la-home"></i> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#video"><i class="las la-play"></i> Video
+                Gallery</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#contact"><i class="las la-sms"></i> Contact</a></li>
+          </ul>
+        </div>
 
-    <div class="icon text-right">
+
+        <!-- <div class="icon text-right">
       <ul>
         <li> <a href="https://www.instagram.com/invites/contact/?i=56ml4gabu47a&utm_content=gtat83q" title="Instagram"
             target="blank"><img src="img/instagram.png" width="6%" alt=""></a></li>
@@ -51,10 +52,16 @@
         <li> <a href="https://www.yourquote.in/shubhamkhandekar626262" title="YourQuote" target="blank"><img
               src="img/yourquote logo2.png" width="20%" alt=""></a></li>
       </ul>
+    </div> -->
+      </div>
     </div>
-
   </nav>
 
+
+
+      <div class="vid_banner">
+        <img src="img/video_gal.png" width="100%" alt="">
+      </div>
 
 
 
@@ -64,17 +71,23 @@
 
         <div class="col-lg-12">
             <div class="video_head text-center mt-5">
-                <h1>Play Now</h1>
+                <h1>Watch Now</h1>
             </div>
         </div>
 
 
-        <div class="col-lg-6">    
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SvN7bqI3xi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="col-lg-6 col-md-12 col-12 mt-3">   
+          <div class="vid">
+            <iframe src="https://www.youtube.com/embed/SvN7bqI3xi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+          </div> 
         </div>
 
-        <div class="col-lg-6">      
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4wUc2NuANUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        <div class="col-lg-6 col-md-12 col-12 mt-3">      
+          <div class="vid">
+            <iframe src="https://www.youtube.com/embed/4wUc2NuANUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+
+          </div>
         </div>
 
     </div>
